@@ -1,0 +1,33 @@
+NAMES                                                                                                               IMAGE                        STATUS                        PORTS
+netdata                                                                                                             netdata/netdata              Up About a minute (healthy)   0.0.0.0:19999->19999/tcp, [::]:19999->19999/tcp
+nginx-test                                                                                                          nginx                        Up 41 minutes                 80/tcp
+k8s_storage-provisioner_storage-provisioner_kube-system_03ed3382-869e-4d7a-a76c-61904c9e6e82_3                      99f89471f470                 Up About an hour
+k8s_nginx-container_my-nginx-pod-2_myns_fb0bbfa0-310d-4159-b2c0-fc1b51e16559_1                                      nginx                        Up About an hour
+k8s_nginx-container_my-nginx-pod-1_myns_d27072d3-94c6-4643-97e2-441b0be48d53_1                                      nginx                        Up About an hour
+k8s_nginx-container_my-nginx-pod_myns_a3eacb2b-31cc-4e82-a799-bc1022cabc36_1                                        nginx                        Up About an hour
+k8s_nginx_configmap-pod_default_0050b1d3-68d8-4341-83c5-d288f3c85904_1                                              nginx                        Up About an hour
+k8s_nginx-container_my-nginx-pod-3_myns_466c3aa2-b6e3-4765-a017-d9d04c3c7af7_1                                      nginx                        Up About an hour
+k8s_nginx-container_my-nginx-pod_default_dddf801a-4669-47cd-b969-312aa7730c73_1                                     nginx                        Up About an hour
+k8s_vpnkit-controller_vpnkit-controller_kube-system_adc1ef4c-e01f-42f5-b38d-305056bdf812_1                          556098075b3d                 Up About an hour
+k8s_coredns_coredns-7c65d6cfc9-rzv8x_kube-system_919c4883-c005-40c3-a37d-ea12ddca5473_1                             c69fa2e9cbf5                 Up About an hour
+k8s_coredns_coredns-7c65d6cfc9-g989l_kube-system_ff9a0912-4e7e-4cd1-8389-b860253e386e_1                             c69fa2e9cbf5                 Up About an hour
+k8s_kube-proxy_kube-proxy-7z9vc_kube-system_3b43c65c-26a5-46b4-b575-7e90a02408f5_1                                  ebf80573666f                 Up About an hour
+k8s_POD_configmap-pod_default_0050b1d3-68d8-4341-83c5-d288f3c85904_1                                                registry.k8s.io/pause:3.10   Up About an hour
+k8s_POD_vpnkit-controller_kube-system_adc1ef4c-e01f-42f5-b38d-305056bdf812_1                                        registry.k8s.io/pause:3.10   Up About an hour
+k8s_POD_my-nginx-pod_myns_a3eacb2b-31cc-4e82-a799-bc1022cabc36_1                                                    registry.k8s.io/pause:3.10   Up About an hour
+k8s_POD_coredns-7c65d6cfc9-rzv8x_kube-system_919c4883-c005-40c3-a37d-ea12ddca5473_1                                 registry.k8s.io/pause:3.10   Up About an hour
+k8s_POD_coredns-7c65d6cfc9-g989l_kube-system_ff9a0912-4e7e-4cd1-8389-b860253e386e_1                                 registry.k8s.io/pause:3.10   Up About an hour
+k8s_POD_my-nginx-pod-3_myns_466c3aa2-b6e3-4765-a017-d9d04c3c7af7_1                                                  registry.k8s.io/pause:3.10   Up About an hour
+k8s_POD_my-nginx-pod-2_myns_fb0bbfa0-310d-4159-b2c0-fc1b51e16559_1                                                  registry.k8s.io/pause:3.10   Up About an hour
+k8s_POD_storage-provisioner_kube-system_03ed3382-869e-4d7a-a76c-61904c9e6e82_1                                      registry.k8s.io/pause:3.10   Up About an hour
+k8s_POD_my-nginx-pod_default_dddf801a-4669-47cd-b969-312aa7730c73_1                                                 registry.k8s.io/pause:3.10   Up About an hour
+k8s_POD_my-nginx-pod-1_myns_d27072d3-94c6-4643-97e2-441b0be48d53_1                                                  registry.k8s.io/pause:3.10   Up About an hour
+k8s_POD_kube-proxy-7z9vc_kube-system_3b43c65c-26a5-46b4-b575-7e90a02408f5_1                                         registry.k8s.io/pause:3.10   Up About an hour
+k8s_etcd_etcd-docker-desktop_kube-system_56b15fdeeabb2ab7bcd7c5aefcfa36ee_1                                         2e96e5913fc0                 Up About an hour
+k8s_kube-apiserver_kube-apiserver-docker-desktop_kube-system_e768070b7d5967fe9761077d15d8df44_1                     bdc2eadbf366                 Up About an hour
+k8s_kube-controller-manager_kube-controller-manager-docker-desktop_kube-system_256f22034a379c622e73861784fc5405_1   359b9f230732                 Up About an hour
+k8s_kube-scheduler_kube-scheduler-docker-desktop_kube-system_eadedfd715d0f4d173812f34f3e07397_1                     3a66234066fe                 Up About an hour
+k8s_POD_etcd-docker-desktop_kube-system_56b15fdeeabb2ab7bcd7c5aefcfa36ee_1                                          registry.k8s.io/pause:3.10   Up About an hour
+k8s_POD_kube-apiserver-docker-desktop_kube-system_e768070b7d5967fe9761077d15d8df44_1                                registry.k8s.io/pause:3.10   Up About an hour
+k8s_POD_kube-scheduler-docker-desktop_kube-system_eadedfd715d0f4d173812f34f3e07397_1                                registry.k8s.io/pause:3.10   Up About an hour
+k8s_POD_kube-controller-manager-docker-desktop_kube-system_256f22034a379c622e73861784fc5405_1                       registry.k8s.io/pause:3.10   Up About an hour
